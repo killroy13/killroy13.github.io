@@ -9,6 +9,19 @@ body {
   position: relative;
   top: -55px;
   width: 100%;
+  background: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-8/htmlcss1-img_bicycles.jpeg") no-repeat top center;
+  
+  /*
+  расположение фонового изображения не странице (ширина) (cover, contain), фиксирование изображения
+  */
+  background-size: cover;
+  background-attachment: fixed; 
+
+/*
+изменение цвета и стиля заливки фонового изображения
+*/
+  background-image: -webkit-linear-gradient(#FFD194, #BC1324);
+
 }
 
 .navigation {
