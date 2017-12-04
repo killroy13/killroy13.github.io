@@ -9,6 +9,19 @@ body {
   position: relative;
   top: -55px;
   width: 100%;
+  background: url("../img/fon.jpg") no-repeat top center;
+  
+  /*
+  расположение фонового изображения не странице (ширина) (cover, contain), фиксирование изображения
+  */
+  background-size: cover;
+  background-attachment: fixed; 
+
+/*
+изменение цвета и стиля заливки фонового изображения
+*/
+  /*background-image: -webkit-linear-gradient(#FFD194, #BC1324);*/
+
 }
 
 .navigation {
@@ -53,7 +66,7 @@ li {
 }
 
 h1 {
-  color: #FFF;
+  color: #000;
   font-family: 'Amatic SC', cursive;
   font-size: 72px;
   line-height: 60px;
@@ -125,4 +138,8 @@ a {
 
 .blue {
   color: #14213D !important;
+}
+.footer {
+    
+
 }
