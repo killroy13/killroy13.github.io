@@ -1,9 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>KillroyDev.git</title>
+  <title>KillroyDev</title>
   <link href="https://fonts.googleapis.com/css?family=Abel|Amatic+SC|Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+
+<!--
+Скрипт для кнопки вверх на странице 
+ !-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript">
+	$(function() {
+		$(window).scroll(function() {
+			if($(this).scrollTop() != 0) {
+				$('#toTop').fadeIn();
+			} else {
+				$('#toTop').fadeOut();
+				}
+		});
+		$('#toTop').click(function() {
+ 			$('body,html').animate({scrollTop:0},800);
+		 });
+	});
+</script>
 </head>
 <body>
 
@@ -11,7 +30,7 @@
     <ul>
       <li>Home</li>
       <li><a href="page1.html">PAGE1</li></a>
-      <li id="logo">Killroy main Page	</li>
+      <li id="logo">Killroy main Page</li>
       <li><a href="page2.html">PAGE2</li></a>
       <li>Contact</li>
     </ul>
@@ -25,26 +44,48 @@
     </div>
   </div>
 
-  <div class="products">
-    <h3 class="blue">Best</h3>
-        
-        <!--
-    <div class="product">
-      <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-8/htmlcss1-img_bike3.png" alt="Место для изображения3"> 
-      <h3>The Crimson</h3>
-      <p>For those who want to stand out, our Crimson bike only comes in red, festooned with black details and built to have a hyrbid cruiser, road bike look.</p>
+    <div class="products">
+    	text    	
     </div>
--->
-    
+  <div class="products">
+    <h3 class="blue">stay Best</h3>  
   </div>
 
   
   <h3></h3>
   
+
+<!--
+кнопка наверх 
+-->
+<div id = "toTop">Вверх</div>
+
 </body>
-<footer>
-	<div class="footer">
-		TExt
-	</div>
-</footer>
+
+<footer class="container">
+    <div class="row">
+      <p class="col-sm-4">&copy;2017, killroy</p>
+      <ul class="col-sm-8">
+        <img class="image" src="./img/footer/in.png">
+        <img class="image" src="./img/footer/skype.png">
+      </ul>
+    </div>
+  </footer>
+
+<!--
+<footer class="container">
+    <div class="row">
+      © 2017, killroy
+ 		<a href="https://www.linkedin.com/in/igor-ivanenko/" rel="nofollow" bl><img src="./img/footer/in.png"></a>
+ 		<a href="https://github.com/killroy13" rel="nofollow" target="_blank"><img src="./img/footer/skype.png"></a>
+    </div>
+  </footer>
+-->
+
+
 </html> 
+
+
+
+
+

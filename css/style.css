@@ -49,6 +49,24 @@ li {
   text-transform: uppercase;
 }
 
+/* стиль для кнопки*/
+#toTop {
+  width:100px;
+  border:1px solid #ccc;
+  background:#f7f7f7;
+  text-align:center;
+  padding:5px;
+  position:fixed;
+  bottom:10px; /* отступ кнопки от нижнего края страницы*/
+  right:10px;
+  cursor:pointer;
+  display:none;
+  color:#333;
+  /*font-family:verdana;*/ 
+  font-family: 'Amatic SC', cursive;
+}
+
+
 #logo {
   color: #FCA311;
   font-family: 'Amatic SC', cursive;
@@ -64,14 +82,28 @@ li {
   top: 280px;
   width: 70%;
 }
+.content {
+  background-color: #FFF;
+  border: 1px solid #DDD;
+  border-radius: 3px;
+  color: #AAA;
+  padding: 20px;
+  margin: 50px auto 0px auto;
+  width: 77%;
+}
 
 h1 {
-  color: #000;
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+
+  /*color: #000;
   font-family: 'Amatic SC', cursive;
   font-size: 72px;
   line-height: 60px;
   padding: 20px 10px;
-  text-align: center;
+  text-align: center;*/
 }
 
 h2 {
@@ -97,6 +129,7 @@ h4 {
   margin: 0px 0px 50px 0px;
 }
 
+  
 p {
   color: #333;
   font-family: 'Raleway', sans-serif;
@@ -119,10 +152,11 @@ a {
 .products {
   background: #EEEFF1;
   box-sizing: border-box;
-  width: 90%;
+  width: 100%;
   margin: 20px auto;
   padding: 20px 0px;
   text-align: center;
+  position: relative;
 }
 
 .product {
@@ -139,7 +173,133 @@ a {
 .blue {
   color: #14213D !important;
 }
-.footer {
-    
 
+
+/***************************************************/
+
+
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.image {
+  margin-right: 10px;
+}
+
+
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('#');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+
+
+
+
+
+
+
+
+/***************************************************/
+
+
+.copyright{
+  color: #fff;
+}
+
+
+
+

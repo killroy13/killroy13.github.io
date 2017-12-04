@@ -1,62 +1,103 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Ship To It - Company Packing List</title>
-  <link href="https://fonts.googleapis.com/css?family=Lato: 100,300,400,700|Luckiest+Guy|Oxygen:300,400" rel="stylesheet">
-  <link rel="stylesheet" href="css/page.css">
+  <title>KillroyDev</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/style.css"/>
+
+<!--
+Скрипт для кнопки вверх на странице 
+ !-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript">
+  $(function() {
+    $(window).scroll(function() {
+      if($(this).scrollTop() != 0) {
+        $('#toTop').fadeIn();
+      } else {
+        $('#toTop').fadeOut();
+        }
+    });
+    $('#toTop').click(function() {
+      $('body,html').animate({scrollTop:0},800);
+     });
+  });
+</script>
+
+
 </head>
 <body>
 
-  <ul class="navigation">
-    <li><img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-9/htmlcss1-img_logo-shiptoit.png" height="20px;"></li>
-    <li class="active">Action List</li>
-    <li>Profiles</li>
-    <li><a href="index.html">Back</li> </a>
-  </ul>
+<header class="container">
+  <div class="row">
+    <h1> teXT</h1>
+    <nav class="col-sm-8 text-right">
+      <p>TExt</p>
+      <p>TExt</p>
+      <p>TExt</p>
+    </nav>
+  </div>
+  </header>
 
-  <div class="search">Search the table</div>
-  
-  <table>
-    <thead>
-      <tr>
-        <th scope="raw">Company Name</th>
-        <th>Number of Items to Ship</th>
-        <th scope="col">Next Action</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Davie's Burgers</td>
-        <td>2</td>
-        <td>Send Invoice</td>
-      </tr>
-      <tr>
-        <td>Baker's Bike Shop</td>
-        <td>3</td>
-        <td>Send Invoice</td>
-      </tr>
-      <tr>
-        <td>Miss Sally's Southern</td>
-        <td>4</td>
-        <td>Ship</td>
-      </tr>
-      <tr>
-        <td>Summit Resort Rentals</td>
-        <td>4</td>
-        <td>Ship</td>
-      </tr>
-      <tr>
-        <td>Strike Fitness</td>
-        <td>1</td>
-        <td>Enter Order</td>
-      </tr>
-    </tbody>
-    <tfoot>
-      <td>Total</td>
-      <td>28</td>
-    </tfoot>
-  </table>
+  <section class="jumbotron">
+  <div class="container">
+      <div class="row text-center">
+        <h2>TExt</h2>
+        <h3>TExt</h3>
+      </div>
+    </div>    
+  </section>
 
+  <section class="container">
+    <div class="row">
+      <figure class="col-sm-6">
+        <p>TExt</p>
+        <img src="#"/>
+      </figure>
+      <figure class="col-sm-6">
+        <p>TExt</p>
+        <img src="#"/>
+      </figure>
+    </div>
+    <div class="row">
+      <figure class="col-sm-6">
+        <p>TExt</p>
+        <img src="#"/>
+      </figure>
+      <figure class="col-sm-6">
+        <p>TExt</p>
+        <img src="#"/>
+      </figure>
+    </div>
+</section>
+
+<footer class="container">
+    <div class="row">
+      <p class="col-sm-4">&copy;2017, killroy</p>
+      <ul class="col-sm-8">
+        <img class="image" src="./img/footer/in.png">
+        <img class="image" src="./img/footer/skype.png">
+      </ul>
+    </div>
+  </footer>
+
+
+<!--
+кнопка наверх 
+-->
+<div id = "toTop">Вверх</div
 
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
