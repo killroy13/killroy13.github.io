@@ -8,28 +8,29 @@
   <link rel="stylesheet" href="css/style.css"/>
 
 
-<!--
-Скрипт для кнопки вверх на странице 
- !-->
+<!-- Скрипт для кнопки вверх на странице -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script type="text/javascript">
-  $(function() {
-    $(window).scroll(function() {
-      if($(this).scrollTop() != 0) {
-        $('#toTop').fadeIn();
-      } else {
-        $('#toTop').fadeOut();
-        }
-    });
-    $('#toTop').click(function() {
-      $('body,html').animate({scrollTop:0},800);
-     });
-  });
-</script>
+<script src="js/script.js"></script>
+<!-- END -->
 
 
 </head>
 <body>
+
+
+<!-- NAVIGATION BLOCK -->
+  <div class="navigation">
+    <ul>
+      <li><a href="index.html">Home</li></a>
+       <li><a href="page1.html">Blog</li></a>
+      <li id="logo">RESUME</li>
+      <li><a href="page2.html">Resume</li></a>
+      <li>Contact</li>
+    </ul>
+  </div>
+<!-- NAVIGATION BLOCK -->
+
+
 
 <header class="container">
   <div class="row">
@@ -74,9 +75,18 @@
     </div>
 </section>
 
+
+
+
+<!-- кнопка наверх -->
+<div id = "toTop">Вверх</div>
+</body>
+
+<!-- FOOTER -->
+
 <footer class="container">
     <div class="row">
-      <p class="col-sm-4">&copy;2017, killroy</p>
+      <p class="col-sm-4">&copy;2018, killroyDev</p>
       <ul class="col-sm-8">
         <img class="image" src="./img/footer/in.png">
         <img class="image" src="./img/footer/skype.png">
@@ -84,12 +94,15 @@
     </div>
   </footer>
 
-
 <!--
-кнопка наверх 
+<footer class="container">
+    <div class="row">
+      © 2017, killroy
+    <a href="https://www.linkedin.com/in/igor-ivanenko/" rel="nofollow" bl><img src="./img/footer/in.png"></a>
+    <a href="https://github.com/killroy13" rel="nofollow" target="_blank"><img src="./img/footer/skype.png"></a>
+    </div>
+  </footer>
 -->
-<div id = "toTop">Вверх</div
 
-
-</body>
+<!-- END FOOTER -->
 </html>

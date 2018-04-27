@@ -5,93 +5,95 @@
   <link href="https://fonts.googleapis.com/css?family=Abel|Amatic+SC|Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 
-<!--
-Скрипт для кнопки вверх на странице 
- !-->
+<!-- Скрипт для кнопки вверх на странице -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script type="text/javascript">
-	$(function() {
-		$(window).scroll(function() {
-			if($(this).scrollTop() != 0) {
-				$('#toTop').fadeIn();
-			} else {
-				$('#toTop').fadeOut();
-				}
-		});
-		$('#toTop').click(function() {
- 			$('body,html').animate({scrollTop:0},800);
-		 });
-	});
-</script>
+<script src="js/script.js"></script>
+<!-- END -->
+
 </head>
 <body>
 
+<!-- NAVIGATION BLOCK -->
   <div class="navigation">
     <ul>
-      <li>Home</li>
+      <li><a href="index.html">Home</li></a>
        <li><a href="page1.html">Blog</li></a>
       <li id="logo">MAIN PAGE</li>
       <li><a href="page2.html">Resume</li></a>
       <li>Contact</li>
     </ul>
   </div>
+<!-- NAVIGATION BLOCK -->
 
+<!-- PRE CONTENT (нужен ли???) -->
   <div id="cover">
     <div class="cover-content">
       <h1>Killroy was here tomorrow</h1>
       <h2></h2>
-      <a href="#" class="btn">Let's...</a>
+      <a href="#" class="btn">Let's start...</a>
     </div>
   </div>
+  <!-- END PRE CONTENT -->
 
-    <div class="products" id="lets">
-      
-    	<h1>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</h1>
-          
-          <p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
-          
-          <h2>Header Level 2</h2>
-          
-          <ol>
-            <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-            <li>Aliquam tincidunt mauris eu risus.</li>
-          </ol>
-          
-          <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote>
-          
-          <h3>Header Level 3</h3>
-          
-          <ul>
-            <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-            <li>Aliquam tincidunt mauris eu risus.</li>
-          </ul>
-          
-          <pre><code>
-          #header h1 a { 
-            display: block; 
-            width: 300px; 
-            height: 80px; 
-          }
-          </code></pre>   	
-      
 
-    </div>
+
+
+
+<!-- CONTENT -->
+  <div class="products" id="lets">
+    
+  	<h1>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</h1>
+        
+        <p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
+        
+        <h2>Header Level 2</h2>
+        
+        <ol>
+          <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+          <li>Aliquam tincidunt mauris eu risus.</li>
+        </ol>
+        
+        <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote>
+        
+        <h3>Header Level 3</h3>
+        
+        <ul>
+          <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+          <li>Aliquam tincidunt mauris eu risus.</li>
+        </ul>
+        
+        <pre><code>
+        #header h1 a { 
+          display: block; 
+          width: 300px; 
+          height: 80px; 
+        }
+        </code></pre>   	
+    
+
+  </div>
+<!-- END CONTENT -->
+
+<!-- SUMMARY -->
   <div class="products">
     <h3 class="blue" id="best">stay Best</h3> 
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. 
   </div>
+<!-- END SUMMARY -->
 
+<!-- CONACTS -->
+<div class="contacts">
+  <h3>CONACTS</h3>
   
-  <h3></h3>
-  
+</div>
+<!-- END CONACTS -->
 
-<!--
-кнопка наверх 
--->
+
+<!-- кнопка наверх -->
 <div id = "toTop">Вверх</div>
-
-
 </body>
+
+<!-- FOOTER -->
 
 <footer class="container">
     <div class="row">
@@ -113,7 +115,7 @@
   </footer>
 -->
 
-
+<!-- END FOOTER -->
 </html> 
 
 
