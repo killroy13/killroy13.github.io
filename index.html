@@ -5,10 +5,32 @@
   <link href="https://fonts.googleapis.com/css?family=Abel|Amatic+SC|Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 
+
+
 <!-- Скрипт для кнопки вверх на странице -->
+<!--
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script src="js/script.js"></script>
+-->
 <!-- END -->
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript">
+ $(function() {
+   $(window).scroll(function() {
+     if($(this).scrollTop() != 0) {
+       $('#toTop').fadeIn();
+     } else {
+       $('#toTop').fadeOut();
+       }
+   });
+   $('#toTop').click(function() {
+       $('body,html').animate({scrollTop:0},800);
+    });
+ });
+</script>
+
+
 
 </head>
 <body>
@@ -90,7 +112,7 @@
 
 
 <!-- кнопка наверх -->
-<div id = "toTop">Вверх</div>
+<div id = "toTop">UP ▲</div>
 </body>
 
 <!-- FOOTER -->
