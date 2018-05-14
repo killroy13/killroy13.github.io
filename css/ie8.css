@@ -1,0 +1,9 @@
+/* Button */
+
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	button,
+	.button {
+		border: solid 2px #f56a6a;
+	}
