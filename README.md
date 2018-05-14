@@ -1,8 +1,3 @@
-h1 Page about me and my jobs
-***
-
-**Blog**
-**Contact information**
-**CV**
+# Page about...
 
 <https://killroy13.github.io>
