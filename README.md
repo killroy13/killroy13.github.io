@@ -1,3 +1,0 @@
-# Page about...
-
-<https://killroy13.github.io>
