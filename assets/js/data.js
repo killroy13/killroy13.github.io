@@ -65,7 +65,7 @@ achievements: [
 projects: [
     {
         title: "Salesforce projects",
-        desc: "Some use full projects.",
+        desc: "Some usefull projects.",
         link: "https://github.com/Beyond-The-Crowd-Dev"
     },
 ],
