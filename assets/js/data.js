@@ -72,7 +72,7 @@ projects: [
 contacts: [
     {
         name: "Email",
-        link: "mailto:yourname@example.com",
+        link: "mailto:ivanenko.igor.88@gmail.com",
         icon: "https://cdn-icons-png.flaticon.com/512/732/732200.png"
     },
     {
