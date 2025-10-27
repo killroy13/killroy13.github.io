@@ -19,8 +19,8 @@ body {
 /* Navigation */
 .nav-container {
     background: rgba(255, 255, 255, 0.1);
-    padding: 15px 0;
     position: absolute;
+    padding: 15px 0;
     top: 0;
     left: 0;
     right: 0;
